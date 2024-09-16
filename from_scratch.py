@@ -17,7 +17,7 @@ def clear_screen(): # You best be usin a terminal or powershell for this code!!!
 
 if __name__ == "__main__":
 	clear_screen()
-	print("\n\n\nPandas Challange 1 BEGINS!!!\n")
+	print("\n\n\n_-_-_-_-_-_-_-_-_-_-Pandas Challange 1 BEGINS!!!-_-_-_-_-_-_-_-_-_-_\n")
 
 
 
@@ -168,7 +168,7 @@ if __name__ == "__main__":
 	# Write a brief summary
 	print("\nSummary of Findings:")
 	print("The top client by total profit is Client ID", summary_data_formatted_sorted.iloc[0]['Client ID'], "with a profit of", summary_data_formatted_sorted.iloc[0]['Profit (millions)'], "million dollars.")
-	print("The second highest is Client ID", summary_data_formatted_sorted.iloc[1]['Client ID'], "with a profit of", summary_data_formatted_sorted.iloc[1]['Profit (millions)'], "million dollars.")
+	print("The second highest is Client ID", summary_data_formatted_sorted.iloc[1]['Client ID'], "with a profit of", summary_data_formatted_sorted.iloc[1]['Profit (millions)'], "million dollars.\n\n\n")
 
 
 
